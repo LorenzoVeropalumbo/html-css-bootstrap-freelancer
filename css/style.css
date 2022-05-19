@@ -1,0 +1,113 @@
+/* RESET */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+}
+
+/* General */
+.small-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Body */
+body{
+  color: white;
+}
+
+/* HEADER */
+header {
+  height: 100px;
+  background-color: #2c3d50;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer Logo */
+.ms_logo{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+/* Footer Main Menu */
+.ms_main_menu li{
+  display: inline-block;
+  padding: 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.ms_main_menu a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* MAIN */
+
+/* Main Logo */
+.ms_img_logo{
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  margin: 0px auto;
+}
+/* Text Logo */
+.ms_text_logo h1{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+.ms_text_logo h3{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+/* Portfolio Section */
+.ms_portfolio_text{
+  padding: 2rem 0;
+}
+.ms_portfolio_text h2{
+  color: #2c3d50;
+  text-transform: uppercase;
+}
+
+.ms_portfolio_text span{
+  color: #2c3d50;
+}
+
+.ms_img_portfolio{
+  height: 250px;
+  background-color: red;
+  margin: 0px auto;
+}
+
+/* About Section */
+
+@media screen and (min-width: 768px){
+
+  /* Text Logo */
+  .ms_text_logo h1{
+    font-size: 3.5rem;
+  }
+  .ms_text_logo h3{
+    font-size: 1.7rem;
+  }
+}
+
+/* COLORS */
+.bg-lightblue{
+  background-color: #1abc9c;
+}
+
+.color-darkgrey{
+  color: #2c3d50;
+}
