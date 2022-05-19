@@ -114,6 +114,9 @@ header {
   background-color: #1abc9c;
 }
 
+.bg-lightgray{
+  background-color: #3b546d;
+}
 .color-darkgrey{
   color: #2c3d50;
 }
