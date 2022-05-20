@@ -20,8 +20,8 @@
 
         <div class="col">
           <!-- Logo -->
-          <div class="ms_logo">
-            <span>Start bootstrap</span>
+          <div class="ms_header_logo">
+            <a href="#">Start bootstrap</a>
           </div>     
         </div>
 
@@ -58,146 +58,147 @@
   <!-- MAIN -->
   <main>
     <!-- CTA Section -->
-   <section class="bg-lightblue">
-      <div class="container py-4">
+   <section class="bg-lightblue padding-big">
+      <div class="container">
         <!-- Img Logo -->
         <div class="ms_img_logo">
-          <!-- <img src="img/avatar.svg" alt=""> -->
+          <img src="img/avatar.svg" alt="">
         </div>
         <div class="ms_text_logo text-center">
-          <h1>Start bootstrap</h1>
-          <span>star</span>
-          <h3>Graphic artist - web desiner - illustrator</h3>
+          <div>
+            <h1 class="text-uppercase">Start bootstrap</h1>
+            <div class="ms_star"><i class="fa-solid fa-star"></i></div>
+            <h3 class="text-uppercase">Graphic artist - web desiner - illustrator</h3>
+          </div>     
         </div>
       </div>
     </section>
 
     <!-- Portfilio Section -->
-    <section>  
-      <div class="container py-4">
-        <div class="text-center ms_portfolio_text">
-           <h2>Portfolio</h2>
-           <span>star</span>
+    <section class="bg-white padding-big">  
+      <div class="container">
+        <div class="text-center ms_logo_section">
+          <h2>Portfolio</h2>
+          <div class="ms_star"><i class="fa-solid fa-star"></i></div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-          <div class="col py-2">
-            <div class="ms_img_portfolio"></div>
+        <!-- Portfolio Img -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <img src="img/cabin.png" alt="cabin">
           </div>
-          <div class="col py-2">
-            <div class="ms_img_portfolio"></div>
+          <div class="col">
+            <img src="img/cake.png" alt="cake">
           </div>
-          <div class="col py-2">
-            <div class="ms_img_portfolio"></div>
+          <div class="col">
+            <img src="img/circus.png" alt="circus">
           </div>
-          <div class="col py-2">
-            <div class="ms_img_portfolio"></div>
+          <div class="col">
+            <img src="img/game.png" alt="game">
           </div>
-          <div class="col py-2">
-            <div class="ms_img_portfolio"></div>
+          <div class="col">
+            <img src="img/safe.png" alt="locker">
           </div>
-          <div class="col py-2">
-            <div class="ms_img_portfolio"></div>
+          <div class="col">
+            <img src="img/submarine.png" alt="submarine">
           </div>
+          <!-- End Portfolio Img -->
         </div>
       </div>
     </section>
 
     <!-- About Section  -->
-    <section class="bg-lightblue">
+    <section class="bg-lightblue padding-big">
       <div class="small-container">
-        <div class="container py-4">
-          <div class="text-center ms_about_text ">
+        <div class="container-fluid">
+          <!-- About Title -->
+          <div class="text-center ms_logo_section">
             <h2>About</h2>
-            <span>star</span>
+            <div class="ms_star"><i class="fa-solid fa-star"></i></div>
           </div>
-          <div class="row row-cols-1 row-cols-md-2">
-            <div class="col py-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo eveniet labore soluta corrupti eos autem magni aliquam, neque, nesciunt repellat officia? Suscipit eius nostrum reprehenderit animi, nisi dignissimos ea.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo eveniet labore soluta corrupti eos autem magni aliquam, neque, nesciunt repellat officia? Suscipit eius nostrum reprehenderit animi, nisi dignissimos ea.
+          <!-- About text -->
+          <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+              <p class="ms_about_paraghaph">
+                Freelancer is a free bootstrap theme createdm by Start Bootstrap.
+                The download includes the complete source files including 
+                HTML, CSS and Javascript
+                as well as optional LESS stylesheets fot easy customization.
+              </p>  
             </div>
-            <div class="col py-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo eveniet labore soluta corrupti eos autem magni aliquam, neque, nesciunt repellat officia? Suscipit eius nostrum reprehenderit animi, nisi dignissimos ea.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo eveniet labore soluta corrupti eos autem magni aliquam, neque, nesciunt repellat officia? Suscipit eius nostrum reprehenderit animi, nisi dignissimos ea.
+            <div class="col">
+              <p class="ms_about_paraghaph">
+                Whether you're a student looking to showcase your work, a 
+                professional looking to attract clients, or a graphic artist 
+                looking to share your projects, this templete is the perfect starting point!
+              </p>
             </div>
           </div>
-          <div class="text-center py-2">
-            <span>download</span>
+          <div class="text-center padding-top">
+            <button type="button" class="btn btn-color-transparent"> <i class="fa-solid fa-download"></i> Download</button>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Contact me -->
-    <section class="color-darkgrey">    
+    <section class="bg-white padding-big">    
       <div class="small-container">
-        <div class="container py-4">
-          <div class="text-center">  
+        <div class="container-fluid">
+          <!-- Contact Title -->
+          <div class="text-center ms_logo_section">  
             <h2>Contact me</h2>
-            <span>star</span>
+            <div class="ms_star"><i class="fa-solid fa-star"></i></div>
           </div>
-
-          <div class="row row-cols-1">
-            <div class="col">
-              <div class="ms_border_bot">
-                <span>Name</span>
-              </div>
+          <!-- From -->
+          <form>
+            <div class="mb-3">
+              <label for="Name" class="form-label ">Email address</label>
+              <input type="email" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">
             </div>
-            <div class="col">
-              <div class="ms_border_bot">
-                <span >Email Adress</span>
-              </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <div class="col">
-              <div  class="ms_border_bot">
-                <span>Phone Number</span>
-              </div>     
-            </div>
-            <div class="col">
-              <div class="ms_border_bot">
-                <span>Message</span>
-              </div> 
-            </div>
-
-            <div class="col">
-              <div>
-                <span>Send</span>
-              </div> 
-            </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+          <!-- End Form -->
         </div>
       </div>
-    </section>
-
-    <!-- Location Section -->
-    <section class="bg-lightgray">
-      <div class="small-container">
-        <div class="container py-4">
-          <div class="row row-cols-1 row-cols-md-3 text-center">
-            <div class="col">
-              <div>
-                <h2> Location</h2>
-                <span>2215 Jhon Daniel Drive Clark, MO </span>
-              </div>
-            </div>
-            <div class="col">
-              <div>
-                <h2> Location</h2>
-                <span>2215 Jhon Daniel Drive Clark, MO </span>
-              </div>
-            </div>
-            <div class="col">
-              <div>
-                <h2> Location</h2>
-                <span>2215 Jhon Daniel Drive Clark, MO </span>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section>
+    </section> 
   </main>
   
-  <footer>
+  <footer class="text-center">
+  <!-- Location Footer -->
+    <div class="bg-lightgray padding-big">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 gy-5">
+          <div class="col">
+            <div>
+              <h4> Location</h4>
+              <span>2215 Jhon Daniel Drive Clark, MO </span>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <h4> Location</h4>
+              <span>2215 Jhon Daniel Drive Clark, MO </span>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <h4> Location</h4>
+              <p>2215 Jhon Daniel Drive Clark, MO </p>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
 
+    <div>
+      <div class="container">
+
+      </div>
+    </div>
   </footer>
 
 </body>
