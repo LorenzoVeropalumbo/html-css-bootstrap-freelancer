@@ -134,7 +134,7 @@
             </div>
           </div>
           <div class="text-center padding-top">
-            <button type="button" class="btn btn-color-transparent"> <i class="fa-solid fa-download"></i> Download</button>
+            <button type="submit" class="btn btn-color-transparent"><i class="fa-solid fa-download"></i> Download</button>
           </div>
         </div>
       </div>
@@ -152,14 +152,22 @@
           <!-- From -->
           <form>
             <div class="mb-3">
-              <label for="Name" class="form-label ">Email address</label>
+              <label for="Name" class="form-label visually-hidden">Email address</label>
               <input type="email" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="Email" class="form-label visually-hidden">Email Address</label>
+              <input type="password" class="form-control" id="Email" placeholder="Email Address">
             </div>
-            <button type="submit" class="btn btn-primary">Send</button>
+            <div class="mb-3">
+              <label for="Phone" class="form-label visually-hidden">Phone number</label>
+              <input type="password" class="form-control" id="Phone" placeholder="Phone number">
+            </div>
+            <div class="mb-3">
+              <label for="Message" class="form-label visually-hidden">Example textarea</label>
+              <textarea class="form-control" id="Message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-lightblue">Send</button>
           </form>
           <!-- End Form -->
         </div>
@@ -168,26 +176,28 @@
   </main>
   
   <footer class="text-center">
-  <!-- Location Footer -->
+  <!-- Location Footer Top-->
     <div class="bg-lightgray padding-big">
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 gy-5">
+        <div class="row row-cols-1 row-cols-md-3">
           <div class="col">
-            <div>
-              <h4> Location</h4>
-              <span>2215 Jhon Daniel Drive Clark, MO </span>
+            <div class="ms_footertop_text">
+              <h4>Location</h4>
+              <p>2215 Jhon Daniel Drive Clark, MO 54243</p>
             </div>
           </div>
           <div class="col">
-            <div>
-              <h4> Location</h4>
-              <span>2215 Jhon Daniel Drive Clark, MO </span>
+            <div class="ms_footertop_text">
+              <h4>Around the web</h4>
+              <div>
+                
+              </div>
             </div>
           </div>
           <div class="col">
-            <div>
-              <h4> Location</h4>
-              <p>2215 Jhon Daniel Drive Clark, MO </p>
+            <div class="ms_footertop_text">
+              <h4>About freelancer</h4>
+              <p>Freelance is a free to use, open source Bootstrap theme created by <span class="color-acqua">Start Bootstrap</span>.</p>
             </div>
           </div>
         </div>   

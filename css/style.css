@@ -14,8 +14,33 @@
     color: inherit;
   }
 
-  /* FORM */
+  /* Buttons Reset */
+  body .btn{
+    box-shadow: none;
+  }
+  body .btn:hover{
+    color: white;
+    box-shadow: none;
+  }
+  body .btn:focus{
+    box-shadow: none;
+  }
 
+  /* FORM */
+  form .form-control{
+    border-bottom: 1px solid #cccccc;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  form .form-control:focus {
+    border-bottom: 1px solid #cccccc;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+  }
   /* GENERAL */
   /* Stars */
   .ms_star *{
@@ -118,6 +143,20 @@
     font-size: 1.3rem;
   }
 
+  /* Footer Top Location */
+  .ms_footertop_text h4{
+    text-transform: uppercase;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+.ms_footertop_text p{
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
   @media screen and (min-width: 768px){
 
     /* Text Logo */
@@ -178,4 +217,13 @@
     color: #fff;
     border-color: white;
     transform: scale(1.2);
+  }
+
+  .btn-lightblue{
+    background-color: #1abc9c;
+    color: white;
+  }
+
+  .color-acqua{
+    color: #1abc9c;
   }
