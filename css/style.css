@@ -195,6 +195,10 @@
     font-weight: 400;
   }
 
+  .ms_social_border:hover{
+    color: white;
+  }
+
   /* Footer Bottom */
   
   .ms_footer_bottom{
