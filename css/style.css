@@ -163,6 +163,10 @@
     font-weight: 400;
   }
 
+  .ms_img_radius img{
+    border-radius: 15px;
+  }
+
   /* Portfolio Section */
   .bg-white .ms_star::after,.bg-white .ms_star::before{
     background-color: #3b546d;
